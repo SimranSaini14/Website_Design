@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Saral - By Simran_Saini</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <!------------------------ Nav section -------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container-fluid">
+        <img src="./images/logo.png" alt="logo" />
+        <a
+          class="navbar-brand fs-2 ms-4"
+          style="color: #5a5a61; font-weight: 500"
+          href="#"
+          >JARVIS</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Language &emsp;&emsp;
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Hindi</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <form class="d-flex"> -->
+          <button class="btn phone-btn me-lg-4 mb-3" type="submit">
+            <!-- <i class="bi bi-telephone"></i> -->
+            <i class="fa-solid fa-phone"></i>
+          </button>
+          <div class="nav-sec-3">
+            <a
+              class=" dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="./images/nav-img.png" class="pe-3 my-2"/>Ram Prasad 
+            </a>
+            <!-- <span>Level</span> -->
+          </div>
+          <!-- </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <div class="nav-middle">
+      <a href="#">SARAL</a>
+      <a href="#">Dashboard</a>
+    </div>
+    <div class="nav-bottom"></div>
+    <!--------------------------- Nav section ends ------------------------------>
+
+
+    <!----------------------------- Header section ------------------------------>
+    <section class="header py-5">
+      <div class="container-fluid px-lg-5">
+        <!-- search bar -->
+        <div class="search ">
+          <i class="fa fa-search"></i>
+          <input type="text" class="form-control w-75 px-5" placeholder="Search by Name/ Phone number/Email">
+        </div>
+
+        <!-- data entry -->
+        <div class="data-entry my-5 px-3 pt-3 pb-5">
+          <h4 class="pb-2 ps-3">Data Entry</h4>
+          <div class="row mx-auto">
+            <div class="col-lg-4 col-12 col-md-6 my-2 my-lg-0">
+              <div class="entry d-flex">
+                <img src="./images/dataE1.png" alt="">
+                <div class="data pt-3">
+                  <h6 class="fw-500">Sangathan Data Entry</h6>
+                  <p class="text-muted data-para">Pradesh, Vibhag, Zila, Mandal, S. Kendra, Booth</p>
+                </div>
+                <i class="fa-solid fa-chevron-right float-end ps-md-2"></i>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12 col-md-6 my-2 my-lg-0">
+              <div class="entry d-flex">
+                <img src="./images/dataE2.png" alt="">
+                <div class="data pt-3">
+                  <h6 class="fw-500">Elected Representative Data Entry</h6>
+                  <p class="text-muted data-para">MP, MP-RS, MLA, MLC</p>
+                </div>
+                <i class="fa-solid fa-chevron-right float-end ps-md-4"></i>                
+              </div>
+            </div>
+            <div class="col-lg-4 col-12 col-md-6 my-2 my-lg-0">
+              <div class="entry d-flex">
+                <img src="./images/dataE3.png" alt="">
+                <div class="pt-3 pe-md-5">
+                  <h6 class="fw-500">Local Bodies Data Entry</h6>
+                  <p class="text-muted data-para">Urban & Rural Local Bodies</p>
+                </div>
+                <i class="fa-solid fa-chevron-right float-end ps-md-5"></i>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- search and downloads -->
+        <div class="search-download ps-4 py-2">
+          <h4>Search & download</h4>
+          <div class="row mx-auto d-flex flex-lg-row">
+            <div class="col">
+              <div class="search-data d-flex">
+                <img src="./images/Search & Download1.png" alt="search-downloads">
+                <div class="pt-4">
+                  <h6 style="font-size: 14px; font-weight: 700; padding-top: 10px;">Sangathan</h6>
+                  <p class="data-para">Download Karyakarta</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="search-data d-flex">
+                <img src="./images/Search & Download1.png" alt="search-downloads">
+                <div class="pt-4">
+                  <h6 style="font-size: 14px; font-weight: 700; padding-top: 10px;">MP/MP-RS/MLA</h6>
+                  <p class="data-para">Data Report Download</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="search-data d-flex">
+                <img src="./images/Search & Download1.png" alt="search-downloads">
+                <div class="pt-4">
+                  <h6 style="font-size: 14px; font-weight: 700; padding-top: 0px;">MLC Data Download</h6>
+                  <p class="data-para">Data Report Download</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="search-data d-flex">
+                <img src="./images/Search & Download1.png" alt="search-downloads">
+                <div class="pt-4">
+                  <h6 style="font-size: 14px; font-weight: 700; padding-top: 10px;">Local Bodies</h6>
+                  <p class="data-para">Data Report Download</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="search-data d-flex">
+                <img src="./images/Search & Download1.png" alt="search-downloads">
+                <div class="pt-4">
+                  <h6 style="font-size: 14px; font-weight: 700; padding-top: 10px;">Downloads</h6>
+                  <p class="data-para">See Downloaded files</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!----------------------- Header section ends ------------------------------------>
+
+
+    <!----------------------- Management section ------------------------------------>
+    <section class="management py-5">
+      <div class="container-fluid ps-5">
+        <div class="row">
+
+          <div class="col-xl-6">
+            <div class="row">
+
+              <div class="col-sm-6">
+                <div class="card all-cards mb-4" style="width: 18rem; height: 15rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">User Management</h5>
+                  </div>
+                  <img src="./images/Visual-03 1.png" class="card-img-top img-fluid w-100 h-75" alt="...">                  
+                </div>
+              </div>
+              <div class="col-sm-6 mb-4">
+                <div class="card all-cards d-flex" style="width: 18rem; height: 15rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Event Management</h5>
+                  </div>
+                  <img src="./images/visual-2.png" class="card-img-top img-fluid w-75 h-75 ps-4" alt="...">                  
+                </div>
+              </div>
+
+            </div>
+            <!-- second row of 1st sec -->
+            <div class="row">
+
+              <div class="col-sm-6 mb-4">
+                <div class="card all-cards d-flex" style="width: 18rem; height: 15rem;">
+                  <div class="card-body py-0">
+                    <h5 class="card-title">Area Overview & Mapping Reports</h5>
+                  </div>
+                  <img src="./images/Visual-3.png" class="card-img-top img-fluid w-100 h-75" alt="...">                  
+                </div>
+              </div>
+              <div class="col-sm-6 mb-4">
+                <div class="card all-cards" style="width: 18rem; height: 15rem;">
+                  <div class="card-body py-0">
+                    <h5 class="card-title">Lists</h5>
+                    <span style="font-size: 12px; color: rgb(192, 191, 191);">Former Presidents / Prabhari/Sanyojak/Vistarak / Health Volunteer</span>
+                  </div>
+                  <img src="./images/Visual-4.png" class="card-img-top img-fluid w-100 h-75 pb-3" alt="...">                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-xl-6">
+            <div class="row">
+
+              <div class="col-sm-6 pb-5 pb-lg-0">
+                <div class="eminent ">
+                  <h5 class="pt-2 ps-4">Eminent Personalities</h5>
+                  <img src="./images/Frame 37448.png" alt="eminent" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class=" quick-download">
+                  <h4 class="ps-4">Quick Download</h4>
+                  <div class="dl-list p-2">
+                    <ul class="list-group">
+                      <li class="list-group-item d-flex justify-content-between align-items-center my-2 ">
+                        State Office Bearers 
+                        <span class="badge bg-success rounded-pill"><i class="fa-solid fa-arrow-down-long"></i></span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center my-2 ">
+                        State Morcha Presidents
+                        <span class="badge bg-success rounded-pill"><i class="fa-solid fa-arrow-down-long"></i></span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center my-2 ">
+                        District Presidents
+                        <span class="badge bg-success rounded-pill"><i class="fa-solid fa-arrow-down-long"></i></span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center my-2 ">
+                        District Office Bearers 
+                        <span class="badge bg-success rounded-pill"><i class="fa-solid fa-arrow-down-long"></i></span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center my-2 ">
+                        District Morcha Presidents
+                        <span class="badge bg-success rounded-pill"><i class="fa-solid fa-arrow-down-long"></i></span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center my-2 ">
+                        Mandal Presidents
+                        <span class="badge bg-success rounded-pill"><i class="fa-solid fa-arrow-down-long"></i></span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!----------------------- Management section ends ------------------------------------>
+
+
+    <!----------------------- Reports section  ------------------------------------>
+    <section class="reports py-3">
+      <div class="container-fluid px-2 px-sm-5">
+
+        <!-- first row -->
+        <div class="row mx-auto py-3 px-3 px-lg-0 sangathan">
+          <h4>Sangathan Reports</h4>
+          <div class="col-lg-auto col-12 my-2 my-lg-1 px-2 mx-2">
+            <span class="badge rounded-pill fs-6" style="background: #065096;">P</span>
+            Pradesh Report
+          </div>
+          
+          <div class="col-lg-auto col-12 my-2 my-lg-1 px-2 mx-2">
+            <span class="badge bg-success rounded-pill fs-6">V</span>
+            Vibhag Report
+          </div>
+
+          <div class="col-lg-auto col-12 my-2 my-lg-1 px-2 mx-2">
+            <span class="badge rounded-pill fs-6" style="background: #FFB387;">Z</span>
+            Zila Report
+          </div>
+
+          <div class="col-lg-auto col-12 my-2 my-lg-1 px-2 mx-2">
+            <span class="badge rounded-pill py-2 fs-6" style="background: #065096;">M</span>
+            Mandal Report
+          </div>
+
+          <div class="col-lg-auto col-12 my-2 my-lg-1 px-2 mx-2">
+            <span class="badge rounded-pill fs-6" style="background: #FFB387;">S</span>
+            Shakti Kendra Report
+          </div>
+
+          <div class="col-lg-auto col-12 my-2 my-lg-1 px-2 mx-2">
+            <span class="badge bg-success rounded-pill fs-6">B</span>
+            Booth Report
+          </div>
+        </div>
+        
+        <!-- next row -->
+        <div class="row sangathan my-3 py-3 px-3 px-lg-0  mx-auto">
+          <h4>Performance Reports</h4>
+          <div class="col-lg-3 mx-2 my-2 my-lg-0">
+            <span class="badge rounded-pill fs-6" style="background: #065096;">D</span>
+            Daily Login Report
+          </div>
+
+          <div class="col-lg-3 mx-2 my-2 my-lg-0">
+            <span class="badge bg-success rounded-pill fs-6">D</span>
+            Daily Data Entry Report
+          </div>
+
+          <div class="col-lg-3 mx-2 my-2 my-lg-0">
+            <span class="badge rounded-pill fs-6" style="background: #FFB387;">N</span>
+            National Overview Report
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!----------------------- Reports section ends ------------------------------------>
+
+
+    <!----------------------- Last section  ------------------------------------>
+    <section style="background: #EFF2F9;" class="py-5 mb-4">
+      <div class="container-fluid last-section">
+
+        <div class="row first w-75">
+          
+          <div class="col-lg-4 ps-5">
+            <div class="row call-center mx-auto py-2 my-4">
+              <div class="col-md-8 col-12">
+                <h4>Call Center</h4>
+                <p>Call center module</p>
+              </div>
+              <div class="col-md-4 col-12">
+                <img src="./images/call-center.png" class="img-fluid pt-2" alt="call-center">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 ps-5">
+            <div class="row call-center mx-auto py-2 my-4" style="background: #3D8EED;">
+              <div class="col-md-8 col-12">
+                <h4>Campaigns</h4>
+                <p>Create Campaigns</p>
+              </div>
+              <div class="col-md-4 col-12">
+                <img src="./images/campaigns.png" class="img-fluid pt-2" alt="campaigns">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 ps-5">
+            <img src="./images/phone.png" alt="phone-img" class="img-fluid ">
+          </div>
+
+        </div>
+
+        <!-- bday row -->
+        <div class="row birthday mt-5 mx-2 mx-sm-5 p-2" style="background: white;">
+
+          <div class="row">
+            <div class="col-lg-8 col-sm-6 col-12">
+              <h5><img src="./images/birthday.png" alt="bday"> Birthdays</h5>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12 ps-md-5">
+              <p><i class="bi bi-calendar"></i>12-01-2022</p>
+            </div>
+            <hr>
+          </div>
+
+          <div class="row d-flex mx-auto ">
+            <div class="col-lg-auto col-sm-6 col-12 py-2 py-lg-0 d-flex px-auto">
+              <img src="./images/bday-img.png" class="img-fluid pe-3" alt="bday-boy">
+              <h6>Raghav Kumar <br><span style="font-size: 12px; font-weight: normal;">Designation</span></h6>
+            </div>
+            <div class="col-lg-auto col-sm-6 col-12 py-2 py-lg-0 d-flex px-auto">
+              <img src="./images/bday-img.png" class="img-fluid pe-3" alt="bday-boy">
+              <h6>Raghav Kumar <br><span style="font-size: 12px; font-weight: normal;">Designation</span></h6>
+            </div>
+            <div class="col-lg-auto col-sm-6 col-12 py-2 py-lg-0 d-flex px-auto">
+              <img src="./images/bday-img.png" class="img-fluid pe-3" alt="bday-boy">
+              <h6>Raghav Kumar <br><span style="font-size: 12px; font-weight: normal;">Designation</span></h6>
+            </div>
+            <div class="col-lg-auto col-sm-6 col-12 py-2 py-lg-0 d-flex px-auto">
+              <img src="./images/bday-img.png" class="img-fluid pe-3" alt="bday-boy">
+              <h6>Raghav Kumar <br><span style="font-size: 12px; font-weight: normal;">Designation</span></h6>
+            </div>
+            <div class="col-lg-auto col-sm-6 col-12 py-2 py-lg-0 d-flex px-auto">
+              <img src="./images/bday-img.png" class="img-fluid pe-3" alt="bday-boy">
+              <h6>Raghav Kumar <br><span style="font-size: 12px; font-weight: normal;">Designation</span></h6>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+    <!----------------------- Last section ends ------------------------------------>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
